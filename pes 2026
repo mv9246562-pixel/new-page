@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>eFootball FanHub • Dream Teams & Updates</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header>
+    <div class="container">
+      <div class="logo">eFootball FanHub</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#players">Players</a></li>
+          <li><a href="#tips">Tips</a></li>
+          <li><a href="#community">Community</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to eFootball FanHub</h1>
+      <p>Build dream teams • Share epic moments • Stay updated with v5.x meta</p>
+      <a href="#community" class="btn">Join the Discussion →</a>
+    </div>
+  </section>
+
+  <!-- News / Updates -->
+  <section id="news" class="section">
+    <div class="container">
+      <h2>Latest eFootball News & Updates</h2>
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=800');"></div>
+          <div class="card-body">
+            <h3>v5.0 Custom Stadiums Released!</h3>
+            <p>Decorate your pitch with new elements + better menu layout.</p>
+            <span class="date">Feb 2026</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1624880357910-495f6e6b3665?w=800');"></div>
+          <div class="card-body">
+            <h3>New National Legends Campaign</h3>
+            <p>Collect icons from your country — who did you pack?</p>
+            <span class="date">Jan 2026</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1553778263-73a83bab8b70?w=800');"></div>
+          <div class="card-body">
+            <h3>Booster Packs Meta Shift</h3>
+            <p>High-rated wingers & box-to-box mids dominating now.</p>
+            <span class="date">Feb 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Players / Cards -->
+  <section id="players" class="section players-section">
+    <div class="container">
+      <h2>Trending Players Right Now</h2>
+      <div class="grid-4">
+        <div class="player-card">
+          <img src="https://via.placeholder.com/200x280/111827/fff?text=Mbappé" alt="Kylian Mbappé">
+          <h3>K. Mbappé</h3>
+          <p>97 OVR • POTM Beast</p>
+        </div>
+        <div class="player-card">
+          <img src="https://via.placeholder.com/200x280/111827/fff?text=Haaland" alt="Erling Haaland">
+          <h3>E. Haaland</h3>
+          <p>96 OVR • Goal Machine</p>
+        </div>
+        <div class="player-card">
+          <img src="https://via.placeholder.com/200x280/111827/fff?text=Vini+Jr" alt="Vinícius Júnior">
+          <h3>Vinícius Jr.</h3>
+          <p>95 OVR • Dribble King</p>
+        </div>
+        <div class="player-card">
+          <img src="https://via.placeholder.com/200x280/111827/fff?text=Endrick" alt="Endrick">
+          <h3>Endrick</h3>
+          <p>89 → 93 OVR • Wonderkid</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tips & Guides -->
+  <section id="tips" class="section">
+    <div class="container">
+      <h2>Quick Tips for Better Gameplay</h2>
+      <ul class="tips-list">
+        <li>Use <strong>PA4</strong> passing for faster build-up in Div 1</li>
+        <li>Crosses still OP — aim near post with 90+ crossing stats</li>
+        <li>Custom stadiums now give minor morale boost (place crowd close)</li>
+        <li>Pack-friendly packs: Epic / Highlight / POTW better value in 2026</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Community / Call to Action -->
+  <section id="community" class="section cta-section">
+    <div class="container">
+      <h2>Join thousands of eFootball fans</h2>
+      <p>Share your squads, rate opponents, discuss patch notes, trade tips.</p>
+      <div class="social-links">
+        <a href="#" class="social-btn">Discord</a>
+        <a href="#" class="social-btn">Reddit</a>
+        <a href="#" class="social-btn">X / Twitter</a>
+      </div>
+      <p class="small">Made with passion by fans • Not official Konami site</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 eFootball FanHub • Fan-made community page</p>
+    </div>
+  </footer>
+
+</body>
+</html>
